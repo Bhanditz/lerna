@@ -28,7 +28,9 @@
     "url": "git+https://github.com/lerna/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "yargs": {
     "populate--": true
@@ -50,6 +52,8 @@
     "@lerna/run": "file:../../commands/run",
     "@lerna/version": "file:../../commands/version",
     "import-local": "^1.0.0",
-    "libnpm": "^2.0.1"
-  }
+    "libnpm": "^2.0.1",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
