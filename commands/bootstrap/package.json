@@ -29,7 +29,9 @@
     "url": "git+https://github.com/lerna/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "yargs": {
     "populate--": true
@@ -57,6 +59,8 @@
     "p-map-series": "^1.0.0",
     "p-waterfall": "^1.0.0",
     "read-package-tree": "^5.1.6",
-    "semver": "^5.5.0"
-  }
+    "semver": "^5.5.0",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
