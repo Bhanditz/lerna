@@ -30,7 +30,9 @@
     "url": "git+https://github.com/lerna/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@lerna/batch-packages": "file:../../utils/batch-packages",
@@ -58,6 +60,8 @@
     "p-map": "^1.2.0",
     "p-pipe": "^1.2.0",
     "p-reduce": "^1.0.0",
-    "semver": "^5.5.0"
-  }
+    "semver": "^5.5.0",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
