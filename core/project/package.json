@@ -28,7 +28,9 @@
     "url": "git+https://github.com/lerna/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@lerna/package": "file:../package",
@@ -42,6 +44,8 @@
     "load-json-file": "^4.0.0",
     "p-map": "^1.2.0",
     "resolve-from": "^4.0.0",
-    "write-json-file": "^2.3.0"
-  }
+    "write-json-file": "^2.3.0",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
