@@ -26,12 +26,16 @@
     "url": "git+https://github.com/lerna/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "byte-size": "^4.0.3",
     "columnify": "^1.5.4",
     "has-unicode": "^2.0.1",
-    "libnpm": "^2.0.1"
-  }
+    "libnpm": "^2.0.1",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
