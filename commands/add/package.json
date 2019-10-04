@@ -29,7 +29,9 @@
     "url": "git+https://github.com/lerna/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@lerna/bootstrap": "file:../bootstrap",
@@ -40,6 +42,8 @@
     "dedent": "^0.7.0",
     "libnpm": "^2.0.1",
     "p-map": "^1.2.0",
-    "semver": "^5.5.0"
-  }
+    "semver": "^5.5.0",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
