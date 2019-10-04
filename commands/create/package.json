@@ -29,7 +29,9 @@
     "url": "git+https://github.com/lerna/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@lerna/child-process": "file:../../core/child-process",
@@ -48,6 +50,8 @@
     "slash": "^1.0.0",
     "validate-npm-package-license": "^3.0.3",
     "validate-npm-package-name": "^3.0.0",
-    "whatwg-url": "^7.0.0"
-  }
+    "whatwg-url": "^7.0.0",
+    "snyk": "^1.231.0"
+  },
+  "snyk": true
 }
