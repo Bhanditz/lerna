@@ -6,6 +6,12 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "libnpm": "^2.0.1"
-  }
+    "libnpm": "^2.0.1",
+    "snyk": "^1.230.5"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
