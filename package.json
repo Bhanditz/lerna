@@ -9,7 +9,9 @@
     "integration": "jest --config jest.integration.js --maxWorkers=2",
     "lint": "eslint . --ignore-path .gitignore --cache",
     "pretest": "npm run lint",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   },
   "dependencies": {
     "@lerna/pack-directory": "file:utils/pack-directory",
-    "lerna": "file:core/lerna"
+    "lerna": "file:core/lerna",
+    "snyk": "^1.232.0"
   },
   "devDependencies": {
     "@lerna-test/calls-back": "file:helpers/calls-back",
@@ -78,5 +81,6 @@
   },
   "engines": {
     "node": ">= 6.9.0"
-  }
+  },
+  "snyk": true
 }
