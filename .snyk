@@ -1,0 +1,166 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - '@lerna/pack-directory > @lerna/package > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/create > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/version > @lerna/collect-updates > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/run-lifecycle > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > @lerna/package > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - '@lerna/pack-directory > libnpm > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/pack-directory > @lerna/package > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/rimraf-dir > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/prompt > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/batch-packages > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/run > @lerna/npm-run-script > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/run > @lerna/npm-run-script > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/run > @lerna/npm-run-script > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/run > @lerna/npm-run-script > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/run-lifecycle > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/run > @lerna/npm-run-script > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/exec > @lerna/batch-packages > @lerna/validation-error > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/changed > @lerna/version > @lerna/command > @lerna/package-graph > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/run-lifecycle > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/exec > @lerna/command > @lerna/write-log-file > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/npm-install > @lerna/get-npm-exec-opts > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/prompt > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/prompt > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/prompt > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/pack-directory > @lerna/package > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/symlink-binary > @lerna/create-symlink > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/command > @lerna/project > @lerna/package > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-binary > @lerna/create-symlink > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/collect-updates > @lerna/describe-ref > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-dependencies > @lerna/resolve-symlink > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/command > @lerna/project > @lerna/package > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/filter-options > @lerna/filter-packages > @lerna/validation-error > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/changed > @lerna/version > @lerna/check-working-tree > @lerna/validation-error > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-dependencies > @lerna/symlink-binary > @lerna/create-symlink > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/command > @lerna/project > @lerna/package > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/bootstrap > @lerna/command > @lerna/project > @lerna/package > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/command > @lerna/project > @lerna/package > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-dependencies > @lerna/symlink-binary > @lerna/create-symlink > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/command > @lerna/project > @lerna/package > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-dependencies > @lerna/symlink-binary > @lerna/create-symlink > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-dependencies > @lerna/symlink-binary > @lerna/create-symlink > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-dependencies > @lerna/symlink-binary > @lerna/create-symlink > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/command > @lerna/project > @lerna/package > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
+    - lerna > @lerna/add > @lerna/bootstrap > @lerna/symlink-dependencies > @lerna/symlink-binary > @lerna/create-symlink > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-07T21:18:06.871Z'
