@@ -30,7 +30,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "cmd-shim": "^2.0.2",
+    "cmd-shim": "^4.0.1",
     "fs-extra": "^7.0.0",
     "libnpm": "^2.0.1"
   }
