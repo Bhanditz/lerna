@@ -53,7 +53,7 @@
     "@lerna/version": "file:../version",
     "figgy-pudding": "^3.5.1",
     "fs-extra": "^7.0.0",
-    "libnpm": "^2.0.1",
+    "libnpm": "^3.0.1",
     "p-finally": "^1.0.0",
     "p-map": "^1.2.0",
     "p-pipe": "^1.2.0",
