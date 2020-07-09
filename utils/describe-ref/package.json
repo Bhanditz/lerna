@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "@lerna/child-process": "file:../../core/child-process",
-    "libnpm": "^2.0.1"
+    "libnpm": "^3.0.1"
   }
 }
