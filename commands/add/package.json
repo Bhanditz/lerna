@@ -38,7 +38,7 @@
     "@lerna/npm-conf": "file:../../utils/npm-conf",
     "@lerna/validation-error": "file:../../core/validation-error",
     "dedent": "^0.7.0",
-    "libnpm": "^2.0.1",
+    "libnpm": "^3.0.1",
     "p-map": "^1.2.0",
     "semver": "^5.5.0"
   }
