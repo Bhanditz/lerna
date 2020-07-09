@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@lerna/validation-error": "file:../../core/validation-error",
-    "libnpm": "^2.0.1",
+    "libnpm": "^3.0.1",
     "multimatch": "^2.1.0"
   }
 }
