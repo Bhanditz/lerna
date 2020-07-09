@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "figgy-pudding": "^3.5.1",
-    "libnpm": "^2.0.1"
+    "libnpm": "^3.0.1"
   }
 }
