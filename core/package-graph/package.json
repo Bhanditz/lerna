@@ -32,6 +32,6 @@
   "dependencies": {
     "@lerna/validation-error": "file:../validation-error",
     "libnpm": "^2.0.1",
-    "semver": "^5.5.0"
+    "semver": "^7.5.2"
   }
 }
