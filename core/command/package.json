@@ -37,7 +37,7 @@
     "@lerna/validation-error": "file:../validation-error",
     "@lerna/write-log-file": "file:../../utils/write-log-file",
     "dedent": "^0.7.0",
-    "execa": "^1.0.0",
+    "execa": "^2.1.0",
     "is-ci": "^1.0.10",
     "libnpm": "^2.0.1",
     "lodash": "^4.17.5"
